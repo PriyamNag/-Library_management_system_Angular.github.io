@@ -1,0 +1,69 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  background: #f2ffa1;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff00d9, #cc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00ff55, #00ff55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+  
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+table{
+  overflow: auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+th,td{
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even){
+  background: #863a43;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9900ff, #3c00ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0048ff, #1500ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+th{
+  /* background-color: #6f52ba; */
+  background: #5A3F37;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C7744, #2C7744);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C7744, #2C7744); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+  color: white;
+}
+
+.button{
+  /* background-color: #4b0766; */
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.title-green{
+  color: green;
+}
+
+.title-red{
+  color: red;
+}
+

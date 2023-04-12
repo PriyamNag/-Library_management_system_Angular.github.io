@@ -1,0 +1,40 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    float: left;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    
+    background: #212201;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #454a23, #ebffbf);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #424a23, #f4ffbf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  
+
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-style: italic;
+
+    font-size: 30px;
+    color: #000000;
+    display: block;
+    background: #221101;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434a23, #BFFFC7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3e4a23, #BFFFC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  
